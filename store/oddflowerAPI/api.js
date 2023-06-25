@@ -1,6 +1,6 @@
 import axios from "axios"
 const oddflowerAPI = axios.create({
-  baseURL: "https://odd-flower-41722.botics.co",
+  baseURL: "https://regrow-41722.botics.co",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_docs_schema_retrieve(payload) {
